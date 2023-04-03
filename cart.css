@@ -1,0 +1,252 @@
+body{
+    overflow: hidden;
+}
+
+#sign{
+    width:13%;
+    display:flex;
+    float:right;
+    justify-content: space-around;
+    padding:7px;
+    margin-right:30px;
+}
+
+#seperation{
+    position: relative;
+    bottom:74px;
+    font-size: 45px;
+    color:#EEAC4D
+}
+
+a{
+    text-decoration: none;
+}
+
+.signin{
+    color:#65B6D7;
+    height:20px;
+}
+
+#login{
+    position: relative;
+    right:20px;
+    bottom:8px;
+    width:1550px;
+    height: 40px;
+    border:1px solid;
+    background-color: #282C3A;
+}
+
+#menubar{
+    position: relative;
+    right:10px;
+    bottom:8px;
+    width:1550px;
+}
+
+#company{
+    padding:10px;
+    display:flex;
+    height:70px;
+    width:25%;
+    align-items:center;
+    justify-content: space-between; 
+}
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width:46%
+}
+
+#picture{
+    align-self: center;
+}
+
+#name{
+    font-size: 20px;
+    color:#16122B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity:.7;
+}
+
+#moto{
+    font-weight: 600;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 3px solid #EEAC4D;
+    padding-left: 20px;
+    color: #282C3A;
+}
+
+#menuoptions{
+    height:70px;
+    display: flex;
+    justify-content: space-evenly;
+    float:right;
+    align-items: center;   
+    width:47%;   
+    margin:-75px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#product{
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+
+#prdct{
+    display: flex;
+    width:20%;
+    justify-content: space-evenly;
+}
+
+#carting{
+    display:flex;
+    width:9%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus{
+    color:#87746B;
+    cursor:pointer;
+    padding-bottom: 10px;
+}
+
+.menus:focus{
+    border-bottom:3px solid #EEAC4D; 
+    padding-bottom: 10px;   
+}
+   
+
+#close{
+    display: flex;
+    align-items: self-start;
+}
+
+.pos{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+
+#contnt{
+    background-color: #e6e3e3;
+    height:700px;
+    position:relative;
+    left:-10px;
+    bottom:20px;
+    width:1560px;
+}
+
+#loc{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:250px;
+}   
+
+#contnt1{
+    background-color: #e6e3e3;
+    height:1000px;
+}
+
+table,td{
+    border:2px solid;
+    border-collapse: collapse;
+    width:600px;
+}
+tr{
+    height:50px;
+}
+.header{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.sn{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.poduct{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 600;
+    font-size: 16px;
+}
+
+table{
+   margin-left: 500px;
+   margin-top: 70px;
+}
+
+input{
+    background-color: #e6e3e3;
+    border: none;
+    outline: 0;
+    text-align: center;
+    width:70px;
+}
+
+tr{
+    cursor: pointer;
+}
+
+#set{
+    width:70px;
+    height:40px;
+    padding-top:3px;
+    position:relative;
+    left:800px;
+    border:none;
+    outline:0;
+    background-color: #EEAC4D;
+    font-size: larger;
+    color:white;
+}
+
+
+#set:hover{
+    background-color: White;
+    color:#EEAC4D;
+    border:2px solid #EEAC4D;
+}
+
+.st{
+    background-color: #87746B;
+    border:none;
+    outline:0;
+    color: #ffff;
+}
+.st:hover{
+    background-color: #ffff;
+    color:#87746B;
+    border:2px solid #87746B;
+    font-size: 15px;
+}
+
+#final{
+    background-color: #ceccd8;
+    position: relative;
+    top:-10px;
+    left:900px;
+    width:50px;
+    height:30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#hal{
+    position: relative;
+    top: 30px;
+    left:720px;
+}

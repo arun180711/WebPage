@@ -1,0 +1,289 @@
+body{
+    overflow: hidden;
+}
+
+#sign{
+    width:13%;
+    display:flex;
+    float:right;
+    justify-content: space-around;
+    padding:7px;
+    margin-right:30px;
+}
+
+#seperation{
+    position: relative;
+    bottom:74px;
+    font-size: 45px;
+    color:#EEAC4D
+}
+
+a{
+    text-decoration: none;
+}
+
+.signin{
+    color:#65B6D7;
+    height:20px;
+}
+
+#login{
+    position: relative;
+    right:20px;
+    bottom:8px;
+    width:1550px;
+    height: 40px;
+    border:1px solid;
+    background-color: #282C3A;
+}
+
+#menubar{
+    position: relative;
+    right:10px;
+    bottom:8px;
+    width:1550px;
+}
+
+#company{
+    padding:10px;
+    display:flex;
+    height:70px;
+    width:25%;
+    align-items:center;
+    justify-content: space-between; 
+}
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width:46%
+}
+
+#picture{
+    align-self: center;
+}
+
+#name{
+    font-size: 20px;
+    color:#16122B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity:.7;
+}
+
+#moto{
+    font-weight: 600;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 3px solid #EEAC4D;
+    padding-left: 20px;
+    color: #282C3A;
+}
+
+#menuoptions{
+    height:70px;
+    display: flex;
+    justify-content: space-evenly;
+    float:right;
+    align-items: center;   
+    width:47%;   
+    margin:-75px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#product{
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+
+#prdct{
+    display: flex;
+    width:20%;
+    justify-content: space-evenly;
+}
+
+#carting{
+    display:flex;
+    width:9%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus{
+    color:#87746B;
+    cursor:pointer;
+    padding-bottom: 10px;
+}
+
+.menus:focus{
+    border-bottom:3px solid #eeac4d; 
+    padding-bottom: 10px;   
+}
+
+#main{
+    width:1550px;
+    height:600px;
+    margin-right:20px;
+    position:relative;
+    right:20px;
+    background-image: url("bckpic.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#body{
+    display:flex;
+    height:500px;
+    margin:1px;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+}
+
+#signup{
+    height:330px;
+    width:25%;
+    background-color: white;
+    padding:20px 20px 10px 55px;
+}
+
+#content{
+    height:390px;
+    width: 45%;
+}
+
+#reg{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.required{
+    color:red;
+}
+
+.log{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+input{
+    width:90%;
+    height:35px;
+    font-size: medium;
+    outline:none;
+    border:2px solid;
+    opacity:.3;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+#botton{
+    width:90%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+
+#entering{
+    color:white;
+    background-color:#EFAD4D;
+    border:none;
+    width:40%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#register{
+    color:#EFAD4D;
+    width:40%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color:white;
+    border:2px solid #EFAD4D;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#register:hover{
+    color:white;
+    background-color:#EFAD4D;
+    border:none;
+}
+
+#entering:hover{
+    color:#EFAD4D;
+    background-color:white;
+    border:2px solid #EFAD4D;
+}
+
+
+#forgot{
+    color:#859FEB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+#paragraph{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+#content1{
+    display:flex;
+    justify-content: space-between;
+    width:70%;
+}
+
+.cost{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+#seperation1{
+    font-size: 50px;
+    color:#EEAC4D;
+    position: relative;
+    bottom:60px;
+}
+
+#seperation2{
+    font-size: 50px;
+    color:#EEAC4D;
+    position: relative;
+    bottom:60px;
+}
+
+select{
+    color:#EEAC4D;
+    width:20px;
+}
+
+#products{
+    border:10px solid;
+    height:170px;
+    width:250px;
+    position:relative;
+    bottom:560px;
+    right:60px;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;  
+}

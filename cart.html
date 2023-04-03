@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="login">
+        <div id="sign">
+            <a href="webPage.html" class="signin">Sign In</a>
+            <p id="seperation">.</p>
+            <a href="register.html" class="signin">Register now</a>
+        </div>
+    </div>
+    <div id="menubar">
+        <div id="company">
+            <div id="logo">
+                <img src="vclogo.jpg" id="picture" height="48" width="48">
+                <p id="name">VIRTO<br>COMMERCE</p>
+            </div>
+            <p id="moto"><i>Electronic goods</i></p>
+        </div>
+        <div id="menuoptions">
+            <a href="webPage.html" id="home" class="menus">HOME</a>
+            <a href="product.html" class="menus">ALL PRODUCTS</a>
+            
+            <div id="carting">
+                <img src="cartpic.jpg" height="20" width="20" id="cartpic" class="menus">
+                <a href="#" id="cart" class="menus">CART</a>
+            </div>
+            <a href="contact.html" id="contact" class="menus">CONTACT US</a>
+        </div>
+    </div>
+    <div id="contnt1"> 
+        <div id="loc">
+            <a href="webPage.html" class="pos">HOME</a>
+            <p class="close">/</p>
+            <a href="#" class="pos">CART</a>
+        </div>
+        <table>
+            <header>
+                <td class="header">S.No.</td>
+                <td class="header">Products</td>
+                <td class="header">Quantity</td>
+                <td class="header">Total</td>
+            </header>
+            <tr>
+                <td id="sn1">1.</td>
+                <td id="poduct1">Laser Printer</td>
+                <td id="las-print" ><input type=text id="qnty1"><button onclick="val()" class="st"> + </button></td>
+                <td id="las-print-sum"></td>
+            </tr>
+            <tr>
+                <td id="sn2">2.</td>
+                <td id="poduct2">Solid Ink Printer</td>
+                <td id="sol-print"><input type=text id="qnty2"><button onclick="val2()"class="st"> + </button></td>
+                <td id="sol-print-sum"></td>
+            </tr>
+            <tr>
+                <td id="sn3">3.</td>
+                <td id="poduct3">LED Printer</td>
+                <td id="led-print"><input type=text id="qnty3"><button onclick="val3()"class="st"> + </button></td>
+                <td id="led-print-sum"></td>
+            </tr>
+            <tr>
+                <td id="sn4">4.</td>
+                <td id="poduc4">Buisness InkJet Printer</td>
+                <td id="buis-print"><input type=text id="qnty4"><button onclick="val4()"class="st"> + </button></td>
+                <td id="buis-print-sum"></td>
+            </tr>
+            <tr>
+                <td id="sn5">5.</td>
+                <td id="poduct5">3D Printer</td>
+                <td id="3d-print"><input type=text id="qnty5"><button onclick="val5()"class="st"> + </button></td>
+                <td id="3d-print-sum"></td>
+            </tr>
+        </table><br><br><br>
+        <button id="set" onclick="set()">Total</button>
+        <p id="hal">The Total amount to pay is</p>
+        <p id="final"></p>
+    </div>
+    </div>
+    <script src="cart.js" type="module"></script>
+</body>
+
+</html>

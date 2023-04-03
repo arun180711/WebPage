@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    body{
+        background-image: url("cnt.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #body {
+       
+        height: 500px;
+        width: 1000px;
+        margin: 100px;
+        padding: 20px;
+        background-color: rgb(104, 113, 170);
+        opacity:.9;
+        display:flex;
+        justify-content: space-evenly;
+        position: relative;
+        left:150px;
+    }
+
+    #icon {
+        margin-top: 30px;
+        display: flex;
+        width: 170px;
+        justify-content: space-around;
+        height: 30px;
+        font-size: 20px;
+ 
+    }
+
+    i{
+        padding: 5px;
+        outline: 0;
+        background-color: white;
+    }
+    i:hover {
+        color: rgb(255, 255, 255);
+        padding:5px;
+        border-radius: 20px;
+        background-color: black;
+        outline: 0;
+    }
+
+    h1 {
+        text-align: center;
+        position:relative;
+        left:250px;
+        margin-bottom: 50px;
+    }
+
+    #mail,
+    #num,
+    #addr {
+        font-size: 17px;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    input{
+        margin-top: 70px;
+        height:30px;
+        border-radius: 5px;
+        border:none;
+        outline:0;
+        padding-left:10px;
+    }
+
+    #inp2,#inp4{
+        margin-left: 10px;
+    }
+
+    #ent{
+        min-height:30px;
+        WIDTH:350PX;
+    }
+    button{
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+    #req{
+        margin-top: 30px;   
+    }
+</style>
+
+<body>
+    <div id="body">
+        <div id="rght">
+            <h1>Contact Us</h1>
+            <p id="mail">E-Mail : aaaa@gmail.com.</p>
+            <p id="num">Phone : 1234567891,9876543210.</p>
+            <p id="addr">Address: aaaa,bbb,cccc.</p>
+            <div id="icon">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+        <div id="req">
+            <form>
+                <input type="text" id="inp1" placeholder="FName"><input type="text" id="inp2" placeholder="LName"><br>
+                <input type="text" id="inp3" placeholder="E-Mail"><input type="text"id="inp4" placeholder="Phone"><br>
+                <input type="text" id="ent" placeholder="Write Your Comments.."><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+    <p id="sut">hey</p>
+</body>
+
+</html>
