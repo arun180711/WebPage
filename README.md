@@ -1,1 +1,1 @@
-# WebPage for E-Commerce using HTML,CSS and JavaScript
+WebPage for E-Commerce using HTML,CSS and JavaScript
